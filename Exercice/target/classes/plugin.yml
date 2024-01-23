@@ -1,0 +1,24 @@
+name: Exercice
+author: Vanysh3d
+version: '1.0-SNAPSHOT'
+main: fr.flambwind.main.Main
+api-version: '1.20'
+
+commands:
+  annonce:
+    description: commande de broadcast (admin only)
+
+  reseaux:
+    description: commande affichant les réseaux
+
+  setspawn:
+    description: commande définissant le spawn (admin only)
+
+  spawn:
+    description: commande permettant la téléportation au spawn
+
+  setwarp:
+    description: commande permettant la création de différents warp (admin only)
+
+  warp:
+    description: commande permettant la téléportation aux warps crée précédemment
